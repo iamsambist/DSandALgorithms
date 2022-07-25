@@ -3,7 +3,7 @@ import java.util.Stack;
 public class PostfixEvaluation {
     public static void main(String[] args) {
         Stack<Integer> stack=new Stack<>();
-       String exp="231*+9-";
+       String exp="876*+9-";
        for(int i=0;i<exp.length();i++){
         char c=exp.charAt(i);
         if(Character.isDigit(c)){
